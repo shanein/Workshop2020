@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div id="profil" class="col l16">
+            <img src="profil.jpeg" width="120px" height="120px">
+            <p>@mathis_anzz <!-- account_name --></p>
+            <p id="followers">129304 Followers <!-- influencer_subscriber --></p>
+        </div>
+
+    </nav>
+    <div id="banniere" class="col l4">
+        <p> + 343 Followers <!-- influencer_subscriber (aujourd'hui) - influencer_subscriber (lundi9h) --> </p>
+        <p> 2900 Posts <!-- influencer_posts(aujourdhui) --></p>
+    </div>
+
+    <div class="container1 col l12">
+    <div class="graph1 col l4">
+        <canvas id="myChart" height="80px" width="150px"></canvas>
+    </div>
+
+    <div class="graph2 col l4">
+         <canvas id="myBar" height="80px" width="150px"></canvas>
+
+    </div>
+
+    <div class="graph3 col l4">
+        <div id="likes">
+        <p class="number"> + 123 <!-- influencer_like(aujourd'hui) - influencer_like(lundi)  --></p>
+         <p> likes </p>
+
+        </div>
+        <div id="comments">
+        <p class="number"> + 123<!-- influencer_comments(aujourd'hui) - influencer_comments(lundi) --> </p>
+        <p> comments </p>
+
+        </div>
+        <div id="stories">
+        <p class="number"> 66 <!-- influencer_stories --></p>
+        <p> Stories </p>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="container2 col l12">
+
+        <div class="graph1 col l4">
+            <canvas id="myBarChart" height="80px" width="150px"></canvas>
+        </div>
+
+        <div id="reach" class="col l4">
+
+            <p class="number"> 50,9% <!-- influencer_reach (ajd) --> </p>
+            <br>
+            <p>Taux de reach</p>
+        </div>
+
+        <div id="moyenneage" class="col l4">
+        
+            <p class="number">18-24 <!-- influencer_moyenne_age(ajd) --></p>
+            <br>
+            <p>Moyenne d'âge</p>
+
+        </div>
+
+    </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

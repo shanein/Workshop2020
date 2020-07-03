@@ -1,0 +1,146 @@
+
+#profil {
+
+	
+	flex-direction: column;
+
+}
+
+.container2 {
+
+	width: 100%;
+
+
+}
+
+.graph1 {
+
+	margin : none;
+	
+}
+
+#banniere {
+
+	border : solid lightgrey 1px;
+	background-color: lightgrey;
+	border-radius: 40px;
+
+}
+
+#banniere p {
+
+	margin : 10px;
+	padding : 10px;
+	text-transform: uppercase;
+}
+
+#followers {
+
+	background-color : #D2ECF1 ;
+	border-radius: 30px;
+	padding : 10px 25px;
+
+
+}
+
+p {
+
+	text-transform: uppercase;
+	font-family: 'Roboto';
+}
+
+#likes, #comments, #stories {
+
+	margin : 8px;
+	text-align: center;
+	flex-direction: column;
+	padding :10px;
+
+}
+
+.number {
+
+	font-weight: 700;
+	font-size : 2em;
+	color : #00A6AD;
+}
+
+#moyenneage p {
+
+	margin : 5px;
+	text-align: center;
+}
+
+#reach p {
+
+	margin : 5px;
+	text-align: center;
+}
+
+#reach, #moyenneage {
+
+	flex-direction: column;
+}
+
+#femme {
+
+	border-radius: 90%;
+}
+
+.col {
+margin: 10px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+box-sizing: border-box;
+}
+
+
+.l1 {
+width: calc((1 * 100% / 12) - 20px);
+}
+
+.l2 {
+width: calc((2 * 100% / 12) - 20px);
+}
+
+.l3 {
+width: calc((3 * 100% / 12) - 20px);
+}
+
+.l4 {
+width: calc((4 * 100% / 12) - 20px);
+}
+
+.l5 {
+width: calc((5 * 100% / 12) - 20px);
+}
+
+.l6 {
+width: calc((6 * 100% / 12) - 20px);
+}
+
+.l7 {
+width: calc((7 * 100% / 12) - 20px);
+}
+
+.l8 {
+width: calc((8 * 100% / 12) - 20px);
+}
+
+.l9 {
+width: calc((9 * 100% / 12) - 20px);
+}
+
+.l10 {
+width: calc((10 * 100% / 12) - 20px);
+}
+
+.l11 {
+width: calc((11 * 100% / 12) - 20px);
+}
+
+.l12 {
+width: calc((12 * 100% / 12) - 20px);
+}
